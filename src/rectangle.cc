@@ -8,7 +8,7 @@
 
 #include <cmath>
 
-#include "../include/shape/rectangle.h"
+#include "rectangle.h"
 
 /**
  * This is a copy constructor for Rectangle class
