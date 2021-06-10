@@ -11,11 +11,6 @@ jobs:
       matrix:
         config:
         - {
-            name: "Windows Latest MSVC",
-            os: windows-latest,
-            build_type: "Debug", cc: "cl", cxx: "cl"
-          }
-        - {
             name: "Ubuntu Latest GCC",
             os: ubuntu-latest,
             build_type: "Debug", cc: "gcc", cxx: "g++"
